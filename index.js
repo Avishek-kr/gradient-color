@@ -10,11 +10,7 @@ function setGradient(){
 	+	"," 
 	+ 	color2.value
 	+	")";
-	css.innerText= "linear-gradient(to right, "
-	+ 	color1.value
-	+	", " 
-	+ 	color2.value
-	+	")";
+	css.innerText= body.style.background + ";"
 }
 
 color1.addEventListener("input", setGradient)
